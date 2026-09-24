@@ -46,7 +46,7 @@ def checkmate(board):
                     else:
                         break
                 r += dr
-                c += dc
+                c += dc 
                 
         if kr + 1 < n and kc - 1 >= 0 and lines[kr + 1][kc - 1] == 'P':
             print("Success")
